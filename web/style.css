@@ -1,0 +1,86 @@
+body {
+    background-size: cover !important;
+    padding: 2em;
+    font-family: Courier;
+}
+
+a, input {
+    transition: all 0.7s ease;
+}
+
+a {
+    color: #111111;
+}
+
+a:hover {
+    color: #2a292c;
+}
+
+input:focus {
+    outline: 0;
+}
+h1 { color: white;}
+.sign-in {    
+    background: #b6bbbf;
+    padding: 3em 1em;
+    border-radius: 10px;
+    text-align: center;
+    width: 350px;
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sign-in input {
+    font-family: Courier;
+    width: 80%;
+    margin: 0 auto;
+    border: 0;
+    background: rgba(0,0,0,0.6);
+    padding: 0.8em;
+    border-radius: 5px;
+    color: #b6bbbf;
+}
+
+.sign-in input[type=submit] {
+    font-family: Courier;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+    background: #19181d;
+    padding: 0.5em; 
+}
+
+.sign-in input[type=submit]:hover {
+    background: #2a292c;
+}
+
+p {
+    position: absolute;
+    top: 0.5em; left: 0.5em;
+    color: beige;
+    background: #f52a2a;
+    padding: 0.5em;
+}
+
+.user-info {
+    text-align: center;
+    background: #b6bbbf;
+    padding: 1.5em 0;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 670px;
+    margin: 0 auto;
+}
+
+.user-info > img {
+    width: 40%;
+    margin-bottom: 1em;
+}
+
+.user-info > span {
+    text-align: center;
+    display: block;
+    padding: 0.3em;
+    font-size: 1.4em;
+}
